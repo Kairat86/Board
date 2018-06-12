@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <item
+        android:id="@+id/palette"
+        android:icon="@drawable/ic_color_lens_black_24dp"
+        android:onClick="showPalette"
+        android:title="@string/palette"/>
+    <item
+        android:id="@+id/size"
+        android:icon="@drawable/ic_format_size_black_24dp"
+        android:onClick="showSizePicker"
+        android:title="@string/size"/>
+    <item
+        android:id="@+id/eraser"
+        android:icon="@android:drawable/ic_delete"
+        android:onClick="erase"
+        android:title="@string/erase"/>
+    <item
+        android:id="@+id/share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:onClick="share"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:onClick="exit"
+        android:title="@string/exit"/>
+</menu>
