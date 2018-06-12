@@ -125,14 +125,15 @@ class MainActivity : AppCompatActivity() {
             override fun onDrawerSlide(drawerView: View, slideOffset: Float) {}
 
             override fun onDrawerClosed(drawerView: View) {
-                drawing_view.isDrawingCacheEnabled = true
-                val b = Bitmap.createBitmap(drawing_view.drawingCache)
+                drawingView().isDrawingCacheEnabled = true
+                val b = Bitmap.createBitmap(drawingView().drawingCache)
                 val file = File(cacheDir, "img.png")
                 val stream = FileOutputStream(file)
                 b.compress(Bitmap.CompressFormat.PNG, 90, stream)
                 stream.close()
                 val intent = Intent(ACTION_SEND)
                 intent.type = "image/png"
+
                 intent.putExtra(Intent.EXTRA_STREAM, FileProvider.getUriForFile(this@MainActivity, "$packageName.provider",
                         file))
                 intent.addFlags(FLAG_GRANT_READ_URI_PERMISSION)
