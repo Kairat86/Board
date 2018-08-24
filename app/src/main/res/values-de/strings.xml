@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pick_color">"Wähle eine Farbe "</string>
+    <string name="press_back_to_get_toolbar">"Drücken Sie zurück, um zur Symbolleiste zu gelangen "</string>
+    <string name="size">Größe</string>
+</resources>
