@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Board</string>
-    <string name="palette">Palette</string>
+    <string name="action_palette">Palette</string>
     <string name="erase">Erase</string>
     <string name="exit">Exit</string>
     <string name="share">Share</string>
