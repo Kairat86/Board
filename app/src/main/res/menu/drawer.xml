@@ -16,7 +16,7 @@
         android:id="@+id/eraser"
         android:icon="@android:drawable/ic_delete"
         android:onClick="erase"
-        android:title="@string/erase"/>
+        android:title="@string/action_erase"/>
     <item
         android:id="@+id/share"
         android:icon="@android:drawable/ic_menu_share"

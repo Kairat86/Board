@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pick_color">Wybierz kolor</string>
+    <string name="press_back_to_get_toolbar">Naciśnij przycisk Wstecz, aby uzyskać pasek narzędzi</string>
+    <string name="size">Rozmiar</string>
+</resources>

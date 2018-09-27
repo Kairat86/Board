@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Board</string>
     <string name="action_palette">Palette</string>
-    <string name="erase">Erase</string>
+    <string name="action_erase">Erase</string>
     <string name="exit">Exit</string>
     <string name="share">Share</string>
     <string name="app_id">ca-app-pub-8761730220693010~1661320867</string>
