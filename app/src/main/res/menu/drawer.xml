@@ -21,7 +21,7 @@
         android:id="@+id/share"
         android:icon="@android:drawable/ic_menu_share"
         android:onClick="share"
-        android:title="@string/share"/>
+        android:title="@string/action_share"/>
     <item
         android:id="@+id/exit"
         android:icon="@drawable/ic_exit_to_app_black_24dp"

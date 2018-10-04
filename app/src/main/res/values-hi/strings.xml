@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pick_color">"एक रंग चुनें "</string>
+    <string name="press_back_to_get_toolbar">"टूलबार प्राप्त करने के लिए वापस दबाएं "</string>
+    <string name="size">आकार</string>
+</resources>
