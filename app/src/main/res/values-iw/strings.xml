@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pick_color">בחר צבע </string>
+    <string name="press_back_to_get_toolbar">לחץ על כדי לקבל את סרגל הכלים</string>
+    <string name="size">גודל </string>
+</resources>

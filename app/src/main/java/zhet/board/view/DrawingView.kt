@@ -25,9 +25,9 @@ class DrawingView(context: Context, attributes: AttributeSet) : View(context, at
     }
 
     override fun onDraw(canvas: Canvas) {
-        map.forEach({
+        map.forEach {
             canvas.drawPath(it.key, it.value)
-        })
+        }
         super.onDraw(canvas)
     }
 

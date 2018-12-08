@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         drawer_layout.setDrawerLockMode(LOCK_MODE_LOCKED_CLOSED)
         Toast.makeText(this, R.string.press_back_to_get_toolbar, LENGTH_LONG).show()
-        MobileAds.initialize(this, getString(R.string.app_id))
         ad = InterstitialAd(this)
         ad.adUnitId = getString(R.string.int_id)
         ad.loadAd(AdRequest.Builder().build())
